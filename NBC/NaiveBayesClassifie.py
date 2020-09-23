@@ -39,42 +39,45 @@ def setOfWoeds2Vec(vocablist, inputSet):
 def trainNB0(trainMatrix, trainCategory):
     '''
     训练朴素贝叶斯模型，即计算调整因子
-    :param trainMatrix:
-    :param trainCategory:
-    :return:
+    :param trainMatrix:数据集
+    :param trainCategory:分类的标签
+    :return: p0Vect 各特征值在0类的转移概率P(w0|0)...
+             p1Vect 各特征值在1类的转移概率P(w0|1)...
+             pAusive 1类的概率
     '''
-    trainNum = len(trainMat)
+    trainNum = len(trainMatrix)
 
-    numWords = len(trainMat[0])
+    numWords = len(trainMatrix[0])
 
-    p0V = np.zeros(numWords)
-    p1V = np.zeros(numWords)
+    p0V = np.ones(numWords)
+    p1V = np.ones(numWords)
     pAusive = sum(trainCategory) / float(trainNum)
-    p0Denom = 0.0;
-    p1Denom = 0.0
+    p0Denom = 2.0;
+    p1Denom = 2.0
     for i in range(trainNum):
         if trainCategory[i] == 1:
-            p1V += trainMat[i]
-            p1Denom += sum(trainMat[i])
+            p1V += trainMatrix[i]
+            p1Denom += sum(trainMatrix[i])
         else:
-            p0V += trainMat[i]
-            p0Denom += sum(trainMat[i])
-    p1Vect = p1V / p1Denom
-    p0Vect = p0V / p0Denom
+            p0V += trainMatrix[i]
+            p0Denom += sum(trainMatrix[i])
+    p1Vect = np.log(p1V / p1Denom)
+    p0Vect = np.log(p0V / p0Denom)
     return p0Vect, p1Vect, pAusive
 
 
 def classifyNB(vec2Classify, p0Vec, p1Vec, pClass1):
-    vec2Classify1 = list(filter(lambda x: x > 0, vec2Classify * p1Vec))
-    vec2Classify0 = list(filter(lambda x: x > 0, vec2Classify * p0Vec))
-    if len(vec2Classify0) == 0:
-        return 1
-    else:
-        p0 = functools.reduce(lambda x, y: x * y, vec2Classify0, 1) * (1.0 - pClass1)
-    if len(vec2Classify1) == 0:
-        return 0
-    else:
-        p1 = functools.reduce(lambda x, y: x * y, vec2Classify1, 1) * pClass1
+    '''
+        进行朴素贝叶斯分类
+       :param vec2Classify: 待评估向量
+       :param p0Vec: 各特征值在0类的转移概率P(w0|0)...
+       :param p1Vec: 各特征值在1类的转移概率P(w0|1)...
+       :param pClass1: pAusive 1类的概率
+       :return: 分类标签
+       '''
+    p1 = sum(vec2Classify * p1Vec) + np.log(pClass1)
+    p0 = sum(vec2Classify * p0Vec) + np.log(1.0 - pClass1)
+
     if p1 > p0:
         return 1
     else:

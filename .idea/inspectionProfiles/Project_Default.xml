@@ -68,8 +68,8 @@
         </value>
       </option>
     </inspection_tool>
-    <inspection_tool class="PyPep8Inspection" enabled="true" level="TYPO" enabled_by_default="true" />
-    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="false" level="TYPO" enabled_by_default="false" />
     <inspection_tool class="PyPropertyAccessInspection" enabled="true" level="TYPO" enabled_by_default="true" />
     <inspection_tool class="PyPropertyDefinitionInspection" enabled="true" level="TYPO" enabled_by_default="true" />
     <inspection_tool class="PyProtectedMemberInspection" enabled="true" level="TYPO" enabled_by_default="true" />
@@ -103,6 +103,11 @@
       <option name="ignoreLambdaParameters" value="true" />
       <option name="ignoreLoopIterationVariables" value="true" />
       <option name="ignoreVariablesStartingWithUnderscore" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
     </inspection_tool>
   </profile>
 </component>

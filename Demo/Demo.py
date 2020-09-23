@@ -36,8 +36,21 @@ if __name__ == "__main__":
     # plt.scatter(x=train[:, 0], y=train[:, 1],
     #             c=LableColors, alpha=0.5)
     # plt.show()
-    ll = ["1245679842", '7956262']
-
-    print(list(ll))
-    print(len(ll))
-    print(list(ll[0]))
+    # a = {'a': '1', 'b': '2', 'c': '3'}
+    #
+    # for key, values in a.items():
+    #     print(key + ':' + values)
+    # ls = a.iteritems()
+    # print(ls)
+    # a = [10, 8, 56, 49, 32, 1, 5, 6, 7, 8, 9]
+    # b = enumerate(a)
+    # c = list(b)
+    # c.sort(key=lambda d: d[1], reverse=True)
+    # print(c)
+    # print('=============')
+    # labels = ['年龄', '有工作', '有自己的房子', '信贷情况']
+    # del(labels['有自己的房子'])
+    # print(labels)
+    a = set([1, 2, 1, 5, 6, 2])
+    for p in a:
+        print(p)
