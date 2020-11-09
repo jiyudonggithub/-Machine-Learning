@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcfe37ac-a018-4e46-bf9b-f1e1f0314810" name="Default Changelist" comment="决策树01：计算某特征对决策的信息增益">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NBC/NBCGarberEmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0716/OSModular.py" afterDir="false" />
+    <list default="true" id="fcfe37ac-a018-4e46-bf9b-f1e1f0314810" name="Default Changelist" comment="SVM ：线性可分的SMO算法">
+      <change afterPath="$PROJECT_DIR$/SVM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM/sensor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/oak/dateAnalysis/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/alexnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/batches.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/data_batch_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/data_batch_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/data_batch_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/data_batch_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/data_batch_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/cifar-10-batches-py/test_batch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/deep01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/img_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepLearn/mnist_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NBC/NaiveBayesClassifie.py" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/NaiveBayesClassifie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/smo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/smo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/oak/dateAnalysis/skleanDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/oak/dateAnalysis/skleanDemo.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,46 +68,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day0716/OSModular.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="e#118#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NBC/NaiveBayesClassifie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-              <folding>
-                <element signature="e#128#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/NBCGarberEmail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2816">
-              <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-              <folding>
-                <element signature="e#123#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -85,107 +83,49 @@
       <dir>D:\PycharmProjects</dir>
     </dirStrings>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/day0716/Demo01.py" />
-        <option value="$PROJECT_DIR$/day0716/Demo02.py" />
-        <option value="$PROJECT_DIR$/day0716/turtle.py" />
-        <option value="$PROJECT_DIR$/day0716/time.py" />
-        <option value="$PROJECT_DIR$/day0716/demo.py" />
-        <option value="$PROJECT_DIR$/day0716/turtledemo.py" />
-        <option value="$PROJECT_DIR$/com/oak/entity/ethink.py" />
-        <option value="$PROJECT_DIR$/com/Str.py" />
-        <option value="$PROJECT_DIR$/com/oak/Str.py" />
-        <option value="$PROJECT_DIR$/com/oak/set.py" />
-        <option value="$PROJECT_DIR$/com/oak/entity/99.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/Iterable.py" />
-        <option value="$PROJECT_DIR$/com/oak/entity/set.py" />
-        <option value="$PROJECT_DIR$/day0716/readfile.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/WordClound.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/ForDemo.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/Function.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/Match.py" />
-        <option value="$PROJECT_DIR$/day0716/word.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/Os.py" />
-        <option value="$PROJECT_DIR$/day0716/timedemo.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/mokuai.py" />
-        <option value="$PROJECT_DIR$/com/oak/dateAnalysis/numpy.py" />
-        <option value="$PROJECT_DIR$/com/oak/dateAnalysis/numpyDemo.py" />
-        <option value="$PROJECT_DIR$/com/oak/dateAnalysis/pandasDemo.py" />
-        <option value="$PROJECT_DIR$/day0716/Ex.py" />
-        <option value="$PROJECT_DIR$/day0716/demo0617.py" />
-        <option value="$PROJECT_DIR$/com/oak/test/ListDemo.py" />
-        <option value="$PROJECT_DIR$/Demo/DecoratorDemo.py" />
-        <option value="$PROJECT_DIR$/Demo/ClassDemo.py" />
-        <option value="$PROJECT_DIR$/Demo/Instantiatedclass.py" />
-        <option value="$PROJECT_DIR$/com/oak/dateAnalysis/skleanDemo.py" />
-        <option value="$PROJECT_DIR$/KNN/CreatSets.py" />
-        <option value="$PROJECT_DIR$/KNN/DatingSiteMatch.py" />
-        <option value="$PROJECT_DIR$/KNN/Demo.py" />
-        <option value="$PROJECT_DIR$/KNN/DigitalIdentify.py" />
-        <option value="$PROJECT_DIR$/DecisionTree/Tree01.py" />
-        <option value="$PROJECT_DIR$/DecisionTree/demo.py" />
-        <option value="$PROJECT_DIR$/Demo/Demo.py" />
-        <option value="$PROJECT_DIR$/DecisionTree/EyeDicsionTree.py" />
-        <option value="$PROJECT_DIR$/day0716/OSModular.py" />
-        <option value="$PROJECT_DIR$/NBC/NaiveBayesClassifie.py" />
-        <option value="$PROJECT_DIR$/NBC/NBCGarberEmail.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="185" />
-    <option name="y" value="76" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
-  </component>
+  <component name="JupyterTrust" id="240cf401-01d8-4ab2-b917-89f747ddd4f6" />
+  <component name="ProjectId" id="1ij0gINsN1316vKbeTjPy8PqYV8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <showMembers ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="email" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebSpider" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PycharmProjects" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PycharmProjects" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deepLearn" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\MachineLearning\DecisionTree" />
       <recent name="D:\MachineLearning" />
@@ -194,20 +134,8 @@
       <recent name="D:\PycharmProjects\KNN" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.NBCGarberEmail">
-    <configuration name="EyeDicsionTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Demo">
+    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,12 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTree/EyeDicsionTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/Demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NBCGarberEmail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="alexnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,12 +165,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NBC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deepLearn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NBC/NBCGarberEmail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deepLearn/alexnet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NaiveBayesClassifie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="deep01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,12 +187,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NBC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deepLearn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NBC/NaiveBayesClassifie.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deepLearn/deep01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OSModular" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="img_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,12 +209,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day0716" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deepLearn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day0716/OSModular.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deepLearn/img_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mnist_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,12 +231,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deepLearn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTree/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deepLearn/mnist_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,16 +247,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NBCGarberEmail" />
-        <item itemvalue="Python.OSModular" />
-        <item itemvalue="Python.NaiveBayesClassifie" />
-        <item itemvalue="Python.EyeDicsionTree" />
-        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.mnist_app" />
+        <item itemvalue="Python.img_demo" />
+        <item itemvalue="Python.deep01" />
+        <item itemvalue="Python.alexnet" />
+        <item itemvalue="Python.Demo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\jiyudong\AppData\Roaming\Subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -386,6 +315,42 @@
       <workItem from="1600567194659" duration="23000" />
       <workItem from="1600567253738" duration="4000" />
       <workItem from="1600671848147" duration="619000" />
+      <workItem from="1602405804755" duration="1493000" />
+      <workItem from="1602491111234" duration="142000" />
+      <workItem from="1602509925759" duration="1000" />
+      <workItem from="1602510396483" duration="128000" />
+      <workItem from="1602512050241" duration="356000" />
+      <workItem from="1602512416487" duration="125000" />
+      <workItem from="1602512551557" duration="137000" />
+      <workItem from="1602512698183" duration="17000" />
+      <workItem from="1602640107754" duration="3421000" />
+      <workItem from="1602684455869" duration="983000" />
+      <workItem from="1602726958916" duration="5202000" />
+      <workItem from="1602732506729" duration="45000" />
+      <workItem from="1602896985709" duration="1710000" />
+      <workItem from="1603077512937" duration="767000" />
+      <workItem from="1603109515478" duration="4991000" />
+      <workItem from="1603197983403" duration="986000" />
+      <workItem from="1603279077007" duration="541000" />
+      <workItem from="1603361524206" duration="697000" />
+      <workItem from="1603376175907" duration="464000" />
+      <workItem from="1603443181219" duration="1017000" />
+      <workItem from="1603502149361" duration="625000" />
+      <workItem from="1603526247112" duration="2025000" />
+      <workItem from="1603531030986" duration="9147000" />
+      <workItem from="1603673758822" duration="13024000" />
+      <workItem from="1603700099923" duration="2128000" />
+      <workItem from="1603720539189" duration="924000" />
+      <workItem from="1603796806670" duration="14000" />
+      <workItem from="1603803700909" duration="2259000" />
+      <workItem from="1603808057674" duration="765000" />
+      <workItem from="1603934035644" duration="50000" />
+      <workItem from="1603934121212" duration="465000" />
+      <workItem from="1603934597057" duration="699000" />
+      <workItem from="1603935312309" duration="29000" />
+      <workItem from="1603935519705" duration="71000" />
+      <workItem from="1603935599697" duration="20000" />
+      <workItem from="1604058289237" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="这是是使用KNN来进行数字识别">
       <created>1599463121677</created>
@@ -436,11 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1600075340002</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SVM ：线性可分的SMO算法">
+      <created>1602685407582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602685407582</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,83 +420,15 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.25409836" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3967213" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.21967213" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.25409836" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32786885" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Word Book" order="5" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Translation Assistant" order="6" weight="0.32984033" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28744328" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.17198068" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.28267974" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32843137" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
-      <window_info anchor="right" id="Translation Assistant" order="6" weight="0.32984033" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -546,6 +447,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="这是是使用KNN来进行数字识别" />
@@ -554,329 +456,128 @@
     <MESSAGE value="决策树01：计算某特征对决策的信息增益" />
     <MESSAGE value="决策树使用sklearn来测试下" />
     <MESSAGE value="朴素贝叶斯" />
-    <option name="LAST_COMMIT_MESSAGE" value="朴素贝叶斯" />
+    <MESSAGE value="SVM ：线性可分的SMO算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="SVM ：线性可分的SMO算法" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2389" y="478" width="483" height="614" key="#HTTP_Proxy" timestamp="1602729699835">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2389" y="478" width="483" height="614" key="#HTTP_Proxy/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1602729699835" />
+    <state x="2631" y="533" width="648" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603533921369">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2631" y="533" width="648" height="410" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603533921369" />
+    <state x="2795" y="459" width="374" height="558" key="#com.intellij.ide.util.MemberChooser" timestamp="1603673996535">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2795" y="459" width="374" height="558" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603673996535" />
+    <state x="2939" y="512" width="424" height="480" key="FileChooserDialogImpl" timestamp="1604058321993">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2939" y="512" width="424" height="480" key="FileChooserDialogImpl/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1604058321993" />
+    <state width="1527" height="257" key="GridCell.Tab.0.bottom" timestamp="1603808823660">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1527" height="257" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603808823660" />
+    <state width="1527" height="257" key="GridCell.Tab.0.center" timestamp="1603808823660">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1527" height="257" key="GridCell.Tab.0.center/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603808823660" />
+    <state width="1527" height="257" key="GridCell.Tab.0.left" timestamp="1603808823660">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1527" height="257" key="GridCell.Tab.0.left/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603808823660" />
+    <state width="1527" height="257" key="GridCell.Tab.0.right" timestamp="1603808823660">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1527" height="257" key="GridCell.Tab.0.right/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603808823660" />
+    <state width="1124" height="419" key="GridCell.Tab.1.bottom" timestamp="1603545807230">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1124" height="419" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603545807230" />
+    <state width="1124" height="419" key="GridCell.Tab.1.center" timestamp="1603545807230">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1124" height="419" key="GridCell.Tab.1.center/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603545807230" />
+    <state width="1124" height="419" key="GridCell.Tab.1.left" timestamp="1603545807230">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1124" height="419" key="GridCell.Tab.1.left/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603545807230" />
+    <state width="1124" height="419" key="GridCell.Tab.1.right" timestamp="1603545807230">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1124" height="419" key="GridCell.Tab.1.right/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603545807230" />
+    <state x="2117" y="417" key="SettingsEditor" timestamp="1603935096448">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2117" y="417" key="SettingsEditor/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603935096448" />
+    <state x="2795" y="433" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1602685426007">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2795" y="433" width="800" height="527" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1602685426007" />
+    <state x="2979" y="609" width="431" height="176" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602727194846">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2979" y="609" width="431" height="176" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1602727194846" />
+    <state x="2438" y="383" width="824" height="680" key="editAsTableFormatDialogDimension" timestamp="1603677056971">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2438" y="383" width="824" height="680" key="editAsTableFormatDialogDimension/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603677056971" />
+    <state x="2825" y="408" width="672" height="678" key="search.everywhere.popup" timestamp="1603935547216">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2825" y="408" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1440/0.28.1920.1052@1920.0.2560.1440" timestamp="1603935547216" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PycharmProjects$skleanDemo.coverage" NAME="skleanDemo Coverage Results" MODIFIED="1593910589103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$skleanDemo.coverage" NAME="skleanDemo Coverage Results" MODIFIED="1603376305526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ForDemo.coverage" NAME="ForDemo Coverage Results" MODIFIED="1563584515755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/MachineLearning$EyeDicsionTree.coverage" NAME="EyeDicsionTree Coverage Results" MODIFIED="1599980572971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$numpyDemo.coverage" NAME="numpyDemo Coverage Results" MODIFIED="1564023032555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/MachineLearning$OSModular.coverage" NAME="OSModular Coverage Results" MODIFIED="1600419144793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$set.coverage" NAME="set Coverage Results" MODIFIED="1563437750008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak" />
     <SUITE FILE_PATH="coverage/PycharmProjects$DigitalIdentify.coverage" NAME="DigitalIdentify Coverage Results" MODIFIED="1599446873229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$mnist_app.coverage" NAME="mnist_app Coverage Results" MODIFIED="1603540765402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deepLearn" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$pandasDemo.coverage" NAME="pandasDemo Coverage Results" MODIFIED="1564022083803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$DatingSiteMatch.coverage" NAME="DatingSiteMatch Coverage Results" MODIFIED="1599292597646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Iterable.coverage" NAME="Iterable Coverage Results" MODIFIED="1563501848412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$99.coverage" NAME="99 Coverage Results" MODIFIED="1563441270247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/entity" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1563519047223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/MachineLearning$NBCGarberEmail.coverage" NAME="NBCGarberEmail Coverage Results" MODIFIED="1600426292734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NBC" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$sensor.coverage" NAME="sensor Coverage Results" MODIFIED="1602732421747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Match.coverage" NAME="Match Coverage Results" MODIFIED="1563587823719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$img_demo.coverage" NAME="img_demo Coverage Results" MODIFIED="1603540738771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deepLearn" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$deep01.coverage" NAME="deep01 Coverage Results" MODIFIED="1603540384760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deepLearn" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Ex.coverage" NAME="Ex Coverage Results" MODIFIED="1564112036852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1603443600284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Demo02.coverage" NAME="Demo02 Coverage Results" MODIFIED="1563258923222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$demo0617.coverage" NAME="demo0617 Coverage Results" MODIFIED="1563435808278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Function.coverage" NAME="Function Coverage Results" MODIFIED="1563584606867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$CreatSets.coverage" NAME="CreatSets Coverage Results" MODIFIED="1599225729919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Str__1_.coverage" NAME="Str (1) Coverage Results" MODIFIED="1563437075014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$word.coverage" NAME="word Coverage Results" MODIFIED="1563538314202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$turtledemo.coverage" NAME="turtledemo Coverage Results" MODIFIED="1563411819513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$WordClound.coverage" NAME="WordClound Coverage Results" MODIFIED="1563535964005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1564017289723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1603808774465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1599441235146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1603113944050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Os.coverage" NAME="Os Coverage Results" MODIFIED="1563589204391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$NaiveBayesClassifie.coverage" NAME="NaiveBayesClassifie Coverage Results" MODIFIED="1603376467310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NBC" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$set__1_.coverage" NAME="set (1) Coverage Results" MODIFIED="1563517947915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/entity" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$smo.coverage" NAME="smo Coverage Results" MODIFIED="1602642175619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+    <SUITE FILE_PATH="coverage/_Machine_Learning$alexnet.coverage" NAME="alexnet Coverage Results" MODIFIED="1603693942626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deepLearn" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$DecoratorDemo.coverage" NAME="DecoratorDemo Coverage Results" MODIFIED="1599133274630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ListDemo.coverage" NAME="ListDemo Coverage Results" MODIFIED="1599133267857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$skleanDemo.coverage" NAME="skleanDemo Coverage Results" MODIFIED="1593910589103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
+    <SUITE FILE_PATH="coverage/MachineLearning$NaiveBayesClassifie.coverage" NAME="NaiveBayesClassifie Coverage Results" MODIFIED="1600349636116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NBC" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Tree01.coverage" NAME="Tree01 Coverage Results" MODIFIED="1599810098974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Str.coverage" NAME="Str Coverage Results" MODIFIED="1563431928263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ethink.coverage" NAME="ethink Coverage Results" MODIFIED="1563420655868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/entity" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$Instantiatedclass.coverage" NAME="Instantiatedclass Coverage Results" MODIFIED="1599135599058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/MachineLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1599820803701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
     <SUITE FILE_PATH="coverage/PycharmProjects$timedemo.coverage" NAME="timedemo Coverage Results" MODIFIED="1563958169439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
     <SUITE FILE_PATH="coverage/MachineLearning$Demo__1_.coverage" NAME="Demo (1) Coverage Results" MODIFIED="1599791053305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$DatingSiteMatch.coverage" NAME="DatingSiteMatch Coverage Results" MODIFIED="1599292597646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
-    <SUITE FILE_PATH="coverage/MachineLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1599820803701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$DecoratorDemo.coverage" NAME="DecoratorDemo Coverage Results" MODIFIED="1599133274630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1599441235146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
-    <SUITE FILE_PATH="coverage/MachineLearning$NBCGarberEmail.coverage" NAME="NBCGarberEmail Coverage Results" MODIFIED="1600426292734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NBC" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$WordClound.coverage" NAME="WordClound Coverage Results" MODIFIED="1563535964005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$CreatSets.coverage" NAME="CreatSets Coverage Results" MODIFIED="1599225729919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$turtledemo.coverage" NAME="turtledemo Coverage Results" MODIFIED="1563411819513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Ex.coverage" NAME="Ex Coverage Results" MODIFIED="1564112036852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-    <SUITE FILE_PATH="coverage/MachineLearning$OSModular.coverage" NAME="OSModular Coverage Results" MODIFIED="1600419144793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-    <SUITE FILE_PATH="coverage/MachineLearning$NaiveBayesClassifie.coverage" NAME="NaiveBayesClassifie Coverage Results" MODIFIED="1600349636116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NBC" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Demo02.coverage" NAME="Demo02 Coverage Results" MODIFIED="1563258923222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-    <SUITE FILE_PATH="coverage/MachineLearning$EyeDicsionTree.coverage" NAME="EyeDicsionTree Coverage Results" MODIFIED="1599980572971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$99.coverage" NAME="99 Coverage Results" MODIFIED="1563441270247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/entity" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$set__1_.coverage" NAME="set (1) Coverage Results" MODIFIED="1563517947915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/entity" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$pandasDemo.coverage" NAME="pandasDemo Coverage Results" MODIFIED="1564022083803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Str__1_.coverage" NAME="Str (1) Coverage Results" MODIFIED="1563437075014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$demo0617.coverage" NAME="demo0617 Coverage Results" MODIFIED="1563435808278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Iterable.coverage" NAME="Iterable Coverage Results" MODIFIED="1563501848412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1563519047223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1564017289723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ListDemo.coverage" NAME="ListDemo Coverage Results" MODIFIED="1599133267857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Str.coverage" NAME="Str Coverage Results" MODIFIED="1563431928263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Instantiatedclass.coverage" NAME="Instantiatedclass Coverage Results" MODIFIED="1599135599058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Function.coverage" NAME="Function Coverage Results" MODIFIED="1563584606867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$set.coverage" NAME="set Coverage Results" MODIFIED="1563437750008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$Match.coverage" NAME="Match Coverage Results" MODIFIED="1563587823719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Tree01.coverage" NAME="Tree01 Coverage Results" MODIFIED="1599810098974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ethink.coverage" NAME="ethink Coverage Results" MODIFIED="1563420655868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/entity" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$numpyDemo.coverage" NAME="numpyDemo Coverage Results" MODIFIED="1564023032555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/dateAnalysis" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$ForDemo.coverage" NAME="ForDemo Coverage Results" MODIFIED="1563584515755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/oak/test" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$word.coverage" NAME="word Coverage Results" MODIFIED="1563538314202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0716" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-643338342/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="2079" column="19" selection-start-line="2079" selection-start-column="19" selection-end-line="2079" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/pandas/core/series.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/pandas/core/generic.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/pandas/core/frame.py" />
-    <entry file="file://$PROJECT_DIR$/com/oak/dateAnalysis/pandasDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="e#118#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/sklearn/model_selection/_split.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/sklearn/tree/tree.py" />
-    <entry file="file://$PROJECT_DIR$/com/oak/dateAnalysis/iris_out.doc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/demo0617.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/sklearn/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/Instantiatedclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/test/mokuai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/test/Match.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/test/Os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/dateAnalysis/numpyDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/dateAnalysis/skleanDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="101" column="10" lean-forward="true" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
-          <folding>
-            <element signature="e#119#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MachineLearning/KNN/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Demo/ClassDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/DecoratorDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/test/ListDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/test/Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/test/ForDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/entity/set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/oak/entity/Str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/Lib/site-packages/matplotlib/pyplot.py" />
-    <entry file="file://$PROJECT_DIR$/MachineLearning/KNN/CreatSets.py" />
-    <entry file="file://$PROJECT_DIR$/MachineLearning/KNN/DatingSiteMatch.py" />
-    <entry file="file://$PROJECT_DIR$/MachineLearning/KNN/DigitalIdentify.py" />
-    <entry file="file://$PROJECT_DIR$/MachineLearning/DecisionTree/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/DecisionTree/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/Tree01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215">
-          <caret line="114" column="35" lean-forward="true" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
-          <folding>
-            <element signature="e#114#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="520" selection-start-line="520" selection-end-line="520" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Lib/site-packages/sklearn/tree/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="815" selection-start-line="815" selection-end-line="815" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/DatingSiteMatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Lib/site-packages/sklearn/tree/export.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="338" selection-start-line="338" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/demo.py" />
-    <entry file="file://$PROJECT_DIR$/Demo/Demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#237#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/EyeDicsionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#124#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/turtledemo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/timedemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/djhad.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-643338342/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="3029" column="21" lean-forward="true" selection-start-line="3029" selection-start-column="21" selection-end-line="3029" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/lenses.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/Ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/email/ham/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0716/OSModular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#118#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/NBCGarberEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2816">
-          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-          <folding>
-            <element signature="e#123#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/NaiveBayesClassifie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-          <folding>
-            <element signature="e#128#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

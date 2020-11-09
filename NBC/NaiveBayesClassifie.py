@@ -97,6 +97,7 @@ if __name__ == '__main__':
     # print('pAv:\n', train_nb_pA)
     testEntry = ['love', 'my', 'dalmation']
     ndarray = np.array(setOfWoeds2Vec(vocab_list, testEntry))
+    print(ndarray)
     if classifyNB(ndarray, p0Vec=train_nb_p0, p1Vec=train_nb_p1, pClass1=train_nb_pA):
         print(testEntry, '属于侮辱类')
     else:

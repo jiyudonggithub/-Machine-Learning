@@ -15,6 +15,14 @@ import random
 
 
 def showClassifer(loadtxt, w, b, alphas):
+    '''
+        数据显示
+    :param loadtxt:
+    :param w:
+    :param b:
+    :param alphas:
+    :return:
+    '''
     plt.scatter(x=loadtxt[loadtxt[:, -1] == 1][:, 0], y=loadtxt[loadtxt[:, -1] == 1][:, 1], c='y', alpha=0.5)
     plt.scatter(x=loadtxt[loadtxt[:, -1] == -1][:, 0], y=loadtxt[loadtxt[:, -1] == -1][:, 1], c='r', alpha=0.5)
     x = np.arange(-2.0, 10, 0.1)
@@ -51,6 +59,7 @@ def smoSimple(dataset, classLabel, C, toler, maxIter):
     y_mat = np.mat(classLabel).T
     m, n = np.shape(dataset)
     alphas = np.mat(np.zeros((m, 1)))
+    ex = np.zeros((m, 2))
     b = 0
     iter_num = 0
     while iter_num < maxIter:
@@ -92,6 +101,21 @@ def smoSimple(dataset, classLabel, C, toler, maxIter):
     return b, alphas
 
 
+def calEj(alphas, y_mat, x_mat, i):
+    gxi = float(np.multiply(alphas, y_mat).T * x_mat * x_mat[i].T) + b
+    Ei = gxi - float(y_mat[i])
+    return Ei
+
+
+def selectMaxEj(ex,alphas, y_mat, x_mat, i):
+    ei = calEj(alphas,y_mat,x_mat,i)
+    ex[ex[:,0] == 1]
+def updateEx(ex,alphas, y_mat, x_mat, i):
+    ei = calEj(alphas, y_mat, x_mat, i)
+    ex[i] = [1,ei]
+    return ex
+
+
 def get_w(dataset, classLabel, alphas):
     x_mat = np.mat(dataset)
     y_mat = np.mat(classLabel).T
@@ -105,6 +129,7 @@ def lineHard(dateset):
 
 
 if __name__ == '__main__':
+
     loadtxt = np.loadtxt(fname='/home/yudong/date.txt', delimiter='\t')
     x_train = loadtxt[:, :2]
     y_train = loadtxt[:, -1]

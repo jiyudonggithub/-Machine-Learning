@@ -132,9 +132,11 @@ def nb_news():
     news = fetch_20newsgroups(subset='all')
     # 划分数据集
     x_train, x_test, y_train, y_test = train_test_split(news.data, news.target, test_size=0.3, random_state=20)
+    print(x_train)
     # 特征工程：文本特征抽取-tfidf
     transfer = TfidfVectorizer()
     x_train = transfer.fit_transform(x_train)
+    print(x_train)
     x_test = transfer.transform(x_test)
 
     # 用朴素贝叶斯算法预估器流程
@@ -180,8 +182,8 @@ def tree_iris():
 if __name__ == '__main__':
     # datasets_Demo()
     # dict_Demo()
-    count_Demo()
+    # count_Demo()
     # knn_iris()
     # knn_iris_gscv()
-    # nb_news()
+    nb_news()
     #tree_iris()
